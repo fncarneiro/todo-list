@@ -1,0 +1,27 @@
+.category {
+  height: 25px;
+  padding: 2px;
+  color: var(--text);
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2em;
+  margin: 2px;
+}
+
+
+.list-tasks {    
+  flex-grow: 3;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0;  
+}
+.list-tasks_item {
+  margin: 16px;
+  width: 160px;
+  height: 140x;
+  display: inline;
+  background-color: var(--item); 
+  box-shadow: 0 0 8px rgb(253, 253, 253);  
+}

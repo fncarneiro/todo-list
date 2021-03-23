@@ -1,0 +1,46 @@
+.card-note {
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-between;  
+  border-radius: 4px;
+  flex-wrap: nowrap;  
+  padding: 4px; 
+}
+.card-note_header {  
+  display: flex;         
+  justify-content: space-between;   
+}
+
+.card-note_inputTitle {  
+  display: flex;   
+  font-size: 1.2em;
+  font-weight: 500;   
+  background-color: var(--item);   
+  border:0;
+  width: 150px;
+  height: 40px;
+  overflow: hidden; 
+}
+
+.card-note_inputText {  
+  display: flex; 
+  font-size: 1.0em;
+  font-weight: 400;   
+  background-color: var(--item);   
+  border:0;
+  width: 150px;
+  height: 130px;
+  padding-top: 10px;
+  overflow: hidden; 
+}   
+
+
+.card-note span {  
+  color: var(--warn);
+}
+
+.svg:hover {
+  -webkit-animation: 1s draw linear forwards;
+  animation: 1s draw linear forwards;
+}
+  
